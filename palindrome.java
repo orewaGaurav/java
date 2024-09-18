@@ -19,8 +19,8 @@ public class palindrome {
         num = i.nextInt();
         palindrome p = new palindrome();//method ko object se call karenge
         p.isPalindrome(num);
-        // isPalindrome(num); agar static lga hota to ye direct kaam kr deta
-       
+        // isPalindrome(num); agar static lga hota to ye direct kaam kr deta hai
+        
     }
 
     
