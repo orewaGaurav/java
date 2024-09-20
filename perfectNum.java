@@ -10,6 +10,9 @@ public class perfectNum {
                 sum +=i;
             }
         }
-        System.out.println(sum);
+        if(sum==num)
+        System.out.println("yes its a perfect number!");
+        else
+        System.out.println("Not a perfect num");
     }
 }
