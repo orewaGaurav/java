@@ -10,6 +10,63 @@ public class pattern {
             }
             System.out.print("\n");
         }
+        System.out.print("\n");
+        for(int i =1;i<=n;i++){
+            for(int j = n;j>=i;j--){
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+        
+        for(int i =5;i<=25;i=i+5){
+            // int num = 25;
+            for(int j = 5;j<=30-i;j=j+5){
+                System.out.print(j+" ");
+                // num = num-5;
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+        for(int i =5;i<=25;i=i+5){
+            // int num = 25;
+            for(int j = 25;j>=i;j=j-5){
+                System.out.print(j+" ");
+                // num = num-5;
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+        for(int i=1;i<=5;i++){
+            for(int j = 1;j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+        for(int i=1;i<=5;i++){
+            for(int j = 5;j>=i;j--){
+                System.out.print(j+" ");
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+        for(int i = 1;i<=5;i++){
+            for(int j = 97;j<97+i;j++){
+                char ch = (char)j;
+                System.out.print(ch+" ");
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+        for(int i = 1;i<=5;i++){
+            for(int j = 65;j<65+i;j++){
+                char ch = (char)j;
+                System.out.print(ch+" ");
+            }
+            System.out.print("\n");
+        }
+        
 
     }
     
