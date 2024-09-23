@@ -21,6 +21,13 @@ public class insertArray {
         int n1 = g.nextInt();
         System.out.println("enter the index: ");
         int index= g.nextInt();
+        arr[index]=n1;
+        for(int i =0;i<n;i++){
+            if(i<n-1)
+            System.out.print(arr[i]+",");
+            else
+            System.out.print(arr[i]);
+        }
+
     }
-    
 }
