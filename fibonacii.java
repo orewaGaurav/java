@@ -12,7 +12,7 @@ public class fibonacii {
             f2 = f;
 
         }
-
+        i.close();
 
     }
 }
