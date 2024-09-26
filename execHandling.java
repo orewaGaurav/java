@@ -8,14 +8,16 @@ public class execHandling{
         catch(Exception e){
         System.out.println("Array out of index");
         }
-        System.out.println("REST");
+        System.out.println("we are out of first try");
         try{
         int z = 5;
         System.out.println(z/0);
         }
         catch(ArithmeticException e){
-            System.out.println("Its a blunder");
+            System.out.println("Its a blunder to divide by zero");
         }
+        System.out.println("we are out of second try");
+        
     
     }
 }
