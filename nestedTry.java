@@ -1,4 +1,6 @@
-public class nestedTry{    
+public class nestedTry{  
+  @SuppressWarnings({ "resource", "unused" })
+    
     public static void main(String args[]){   
     //outer try block   
      try{    
@@ -7,6 +9,7 @@ public class nestedTry{
         System.out.println("going to divide by 0");    
         int b =39/0;    
       }  
+      
        //catch block of inner try block 1  
        catch(ArithmeticException e)  
        {  
