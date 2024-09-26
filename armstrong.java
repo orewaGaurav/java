@@ -1,5 +1,6 @@
 import java.util.*;
 public class armstrong {
+    @SuppressWarnings({"resource","unused"})
     public static void main(String args[]){
         System.out.print("Enter the number: ");
         Scanner g = new Scanner(System.in);
