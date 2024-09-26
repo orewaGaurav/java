@@ -1,5 +1,6 @@
 import java.util.*;
 public class overloading{
+    @SuppressWarnings({"resource","unused"})
 public void sum(int a,int b){
     int c = a+b;
     System.out.println("sum of int "+c);
@@ -31,7 +32,7 @@ public static void main(String args[]){
     s1.sum(f1,f2);
     s1.sum(l1,l2);
 
-    
+    i.close();
 
 }
 }
