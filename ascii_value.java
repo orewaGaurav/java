@@ -38,7 +38,7 @@ public class ascii_value{
         // System.out.println(ch);
         int ascii1 = ch;
         System.out.println(ascii1);
-        
+        s.close(); 
 
     }
 }
