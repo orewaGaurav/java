@@ -6,6 +6,7 @@ public class assertion {
         int age = sc.nextInt();
         assert (age >=18 && age<=60): "Not Valid candidate";
         System.out.println("age is "+age);
+        sc.close();
     }
 }
 // to run it we hve to first enable assertion
