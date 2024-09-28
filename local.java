@@ -1,5 +1,6 @@
 import java.util.*;
 public class local {
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Locale l = Locale.getDefault();
         System.out.println(l.getDefault());
