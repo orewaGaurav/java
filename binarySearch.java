@@ -29,6 +29,6 @@ public class binarySearch {
             }
         }
         System.out.println("The position is: "+pos);
-
+        g.close();
     }
 }
