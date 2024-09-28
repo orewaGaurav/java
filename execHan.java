@@ -35,6 +35,7 @@ public class execHan {
         int ind = sc.nextInt();
 
         index(ind, arr);
+        sc.close();
     }
     
 }
