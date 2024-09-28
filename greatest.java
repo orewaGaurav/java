@@ -1,5 +1,6 @@
 import java.util.*;
 public class greatest {
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         int a,b,c,g;
         Scanner i = new Scanner(System.in);
