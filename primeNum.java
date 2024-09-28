@@ -17,6 +17,7 @@ public class primeNum {
             default:
             System.out.println("Not a prime num");
         }
+        g.close();
         
     }
 }
