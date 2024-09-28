@@ -14,5 +14,6 @@ public class balanceCheck {
         Scanner i = new Scanner(System.in);
         x = i.nextDouble();
         balance(x);
+        i.close();
     }
 }
