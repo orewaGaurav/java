@@ -17,6 +17,7 @@ public class array {
             else
             System.out.print(arr[i]+"\n");
         }
+        g.close();
     }
     
 }
