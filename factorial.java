@@ -14,7 +14,7 @@ public class factorial {
         x= j.nextInt();
         factorial g = new factorial();
         g.fact(x);
-
+        j.close();
     }
 }
 
