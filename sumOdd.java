@@ -1,5 +1,6 @@
 import java.util.*;
 public class sumOdd{
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         int num1,num2;
         System.out.println("Enter the starting number and ending number: ");
