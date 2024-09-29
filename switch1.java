@@ -1,5 +1,6 @@
 import java.util.*;
 public class switch1 {
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         System.out.print("Enter the number of day: ");
         Scanner i= new Scanner(System.in);
