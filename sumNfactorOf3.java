@@ -1,5 +1,6 @@
 import java.util.*;
 public class sumNfactorOf3 {
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         System.out.print("Enter the number: ");
         Scanner g = new Scanner(System.in);
