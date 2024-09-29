@@ -1,5 +1,6 @@
 import java.util.*;
 public class sumOf {
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         int n;
         System.out.println("Enter num: ");
