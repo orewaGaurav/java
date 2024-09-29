@@ -1,5 +1,6 @@
 import java.util.*;
 public class sumEven {
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         int num;
         System.out.print("Enter the number: ");
