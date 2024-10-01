@@ -1,6 +1,6 @@
 import java.util.*;
 public class fibonacii {
-    
+    @SuppressWarnings("resource")
     public static void main(String args[]){
         System.out.print("Enter the num: ");
         Scanner i  = new Scanner(System.in);
