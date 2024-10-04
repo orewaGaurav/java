@@ -341,5 +341,6 @@ System.exit(0);
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
+    //GUI
     // End of variables declaration//GEN-END:variables
 }
